@@ -19,7 +19,6 @@ public class OddOrEven {
             System.out.println(number + " is nether even nor odd");
         }
     }
-
 }
 /*
 Numbers -- odd & even
