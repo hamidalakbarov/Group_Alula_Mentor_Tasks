@@ -27,14 +27,12 @@ public class FINRA {
             // Solution 2 - ternary statement (shorthand if statement)
             result = (i % 3 == 0) ? "FIN" : (i % 5 == 0) ? "RA" : (i % 3 == 0 && i % 5 == 0) ? "FINRA" : "";
 
-            if (!result.isEmpty()) {
+            if (!result.isEmpty()) { // if result1 contains text to print
                 System.out.println(result);
             }
         }
     }
 }
-
-
 /*
 Numbers -- FINRA
 Write a method which prints out the numbers from 1 to 30 but for numbers which are a multiple of 3,
