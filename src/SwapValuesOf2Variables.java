@@ -10,20 +10,21 @@ public class SwapValuesOf2Variables {
         System.out.println("------------------------------------");
 
         // Solution 1
-        a += b; // a = 100 + 500 = 600
-        b = a - b; // b = 600 - 500 = 100
-        a -= b; // a = 600 - 100 = 500
+        a += b; // a = (123 + 321 = 444)
+        b = a - b; // b = (444 - 321 = 123)
+        a -= b; // a = (444 - 123 = 321)
 
-        System.out.println("After swapping \na=" + a + "\nb=" + b); // a = 500 b = 100
+        System.out.println("After swapping \na=" + a + "\nb=" + b); // a = 321, b = 123
 
         System.out.println("------------------------------------");
 
         // Solution 2
-        a *= b; // a = 100 * 500 = 50,000
-        b = a / b; // b = 50,000 / 500 = 100
-        a /= b; // a = 50,000 / 100
+        a *= b; // a = (321 * 123 = 39483)
+        b = a / b; // b = (39483 / 123 = 321)
+        a /= b; // a = (39483 / 321 = 123)
 
-        System.out.println("Another swapping \na=" + a + "\nb=" + b); // a = 100 b = 500
+        System.out.println("Another swapping \na=" + a + "\nb=" + b); // a = 123 b = 321
+
     }
 }
 /*
