@@ -24,18 +24,6 @@ public class SwapValuesOf2Variables {
         a /= b; // a = 50,000 / 100
 
         System.out.println("Another swapping \na=" + a + "\nb=" + b); // a = 100 b = 500
-
-        System.out.println("------------------------------------");
-
-        // Solution 3
-
-
-
-
-
-
-
-
     }
 }
 /*
