@@ -35,6 +35,8 @@ public class OddOrEven {
             return;
         }
         System.out.println(number + " is nether even nor odd");
+
+        input.close();
     }
 }
 /*
