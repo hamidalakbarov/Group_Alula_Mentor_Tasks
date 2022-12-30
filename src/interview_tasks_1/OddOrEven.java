@@ -1,3 +1,5 @@
+package interview_tasks_1;
+
 import java.util.Scanner;
 
 public class OddOrEven {

@@ -1,3 +1,5 @@
+package interview_tasks_1;
+
 public class SwapValuesOf2Variables {
 
     public static void main(String[] args) {
