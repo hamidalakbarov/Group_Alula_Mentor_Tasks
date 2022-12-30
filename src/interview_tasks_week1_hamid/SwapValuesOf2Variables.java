@@ -1,4 +1,4 @@
-package interview_tasks_1.hamid;
+package interview_tasks_week1_hamid;
 
 public class SwapValuesOf2Variables {
 
