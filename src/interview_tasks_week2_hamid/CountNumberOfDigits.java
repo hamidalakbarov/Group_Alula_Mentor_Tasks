@@ -17,7 +17,7 @@ public class CountNumberOfDigits {
         // Solution 2 - by converting number to String
         int number1 = 456321, countDigits1 = 0;
 
-        for (char eachDigit : Integer.valueOf(number1).toString().toCharArray()) {
+        for (char eachDigit : ("" + number1).toCharArray()) {
             countDigits1++;
         }
 
