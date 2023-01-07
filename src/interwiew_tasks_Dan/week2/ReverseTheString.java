@@ -1,15 +1,19 @@
 package interwiew_tasks_Dan.week2;
-
+/*
+. Reverse a string
+Write a return method that can reverse String Ex: Reverse("ABCD");
+==> DCBA
+ */
 
 import java.util.Scanner;
 
 public class ReverseTheString {
     public static void main(String[] args) {
-        reverseString();
+        System.out.println(reverseString());
 
     }
 
-    public static void reverseString(){
+    public static String reverseString(){
 
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter your text: ");
@@ -19,7 +23,9 @@ public class ReverseTheString {
             reversedString+=text.charAt(i);
 
         }
-        System.out.println(reversedString);
+        return reversedString;
+
+
     }
 
 }

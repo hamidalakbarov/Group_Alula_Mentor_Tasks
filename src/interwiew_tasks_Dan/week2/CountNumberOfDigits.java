@@ -1,5 +1,5 @@
 package interwiew_tasks_Dan.week2;
-
+//Write a java program to count number of digits in a number
 import java.util.Scanner;
 
 public class CountNumberOfDigits {
@@ -23,6 +23,7 @@ countDigits();//Run
             System.out.println("The number of digits in is: "+count);
         }else{
             System.out.println("The number of digits is:  "+(count-1));
+
         }
     }
 }
