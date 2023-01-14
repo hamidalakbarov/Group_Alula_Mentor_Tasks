@@ -4,7 +4,7 @@ public class FINRA {
 
     public static void main(String[] args) {
 
-        FINRA.printFINRA(30);
+        FINRA.printFINRA(15);
 
     }
 
@@ -27,7 +27,7 @@ public class FINRA {
             //--------------------------------------------------------------------
 
             // Solution 2 - ternary statement (shorthand if statement)
-            result = (i % 3 == 0) ? "FIN" : (i % 5 == 0) ? "RA" : (i % 3 == 0 && i % 5 == 0) ? "FINRA" : "";
+            result = (i % 3 == 0 && i % 5 == 0) ? "FINRA" : (i % 3 == 0) ? "FIN" : (i % 5 == 0) ? "RA" : "";
 
             if (!result.isEmpty()) { // if result1 contains text to print
                 System.out.println(result);
