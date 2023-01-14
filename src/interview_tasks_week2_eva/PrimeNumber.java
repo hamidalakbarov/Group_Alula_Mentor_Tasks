@@ -7,6 +7,14 @@ public class PrimeNumber {
         System.out.println(PrimeNumber(10));
         System.out.println(PrimeNumber(7));
         System.out.println(PrimeNumber(41));
+        System.out.println(PrimeNumber(3));
+        System.out.println(PrimeNumber(5));
+        System.out.println(PrimeNumber(7));
+        System.out.println(PrimeNumber(9));
+        System.out.println(PrimeNumber(11));
+        System.out.println(PrimeNumber(13));
+        System.out.println(PrimeNumber(19));
+        System.out.println(PrimeNumber(37));
 
     }
 
