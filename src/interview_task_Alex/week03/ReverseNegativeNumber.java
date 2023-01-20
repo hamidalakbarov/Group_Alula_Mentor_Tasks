@@ -8,11 +8,10 @@ public class ReverseNegativeNumber {
             return number;
         }
 
-        String numberStr =""+number;
         String revNumStr ="-";
 
-        for (int i = numberStr.length() - 1; i > 0 ; i--) {
-            revNumStr+=numberStr.charAt(i);
+        for (int i = ("" + number).toCharArray().length - 1; i > 0 ; i--) {
+            revNumStr+=""+("" + number).toCharArray()[i];
         }
 
         int revNumber = Integer.parseInt(revNumStr);
